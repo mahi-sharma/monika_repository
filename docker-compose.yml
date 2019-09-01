@@ -1,7 +1,7 @@
 version: '3'
 services:
      redis-server:
-       image: 'redisA'
+       image: 'redis'
        container_name: rediscontainer
      node-app:
       restart: always
